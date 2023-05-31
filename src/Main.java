@@ -5,7 +5,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        // Hier mag je je code scrijven voor de hoofd-opdracht
+        // Hier mag je je code schrijven voor de hoofd-opdracht
+
+//1.Maak in je main methode een Integer array genaamd numeric die je vult met de nummers 1,2,3,4,5,6,7,8,9,0.//done
+        int[] numeric = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+        //2. Maak in je main methode een String array genaamd alphabetic die je vult met de String varianten van de nummers uit stap 1, dus: "een", "twee", ... etc ..., "negen", "nul".//done
+        String[] alphabetic = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "zero"};
+        Translator translator = new Translator(numeric, alphabetic);
+
 
         /* deze regel mag je weg halen voor de bonus opdracht. Onderstaande code is voor de bonus opdracht.
         HashSet<Integer> secretnumber = randomnumbergenerator();
