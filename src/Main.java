@@ -14,6 +14,11 @@ public class Main {
         String[] alphabetic = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "zero"};
         Translator translator = new Translator(numeric, alphabetic);
         Scanner scanner = new Scanner(System.in);
+        while (play) {
+            System.out.println("Type 'x' om te stoppen \nType 'v' om te vertalen");
+            String input = scanner.nextLine();
+        }
+    }
 
         /* deze regel mag je weg halen voor de bonus opdracht. Onderstaande code is voor de bonus opdracht.
         HashSet<Integer> secretnumber = randomnumbergenerator();
@@ -22,7 +27,6 @@ public class Main {
         feedback();
          deze regel mag je weg halen voor de bonus opdracht */
 
-    }
 
     /*
      Deze methode is voor de bonus opdracht.
