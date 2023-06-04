@@ -15,4 +15,4 @@ public class Translator {
     }
 }
 
-//In de body van de translate methode return je de waarde (value) uit de numericAlpha HashMap die hoort bij de sleutel (key) van number
+
